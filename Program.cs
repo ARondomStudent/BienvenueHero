@@ -9,8 +9,15 @@
 */
 class Program
 {
+    // Déclaration de la méthode
+    static void AfficherBienvenue()
+    {
+        Console.WriteLine("Bienvenue dans votre aventure, héros !");
+    }
+    
     static void Main(string[] args)
     {
-        
+        // Appel de la méthode
+        AfficherBienvenue();
     }
 }
